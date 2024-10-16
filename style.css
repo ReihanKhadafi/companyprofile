@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.navbar {
+  background-color: #00aaff;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #000000 !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+#tentang h2,
+#pilihan h2,
+#kontak h2 {
+  color: #000000;
+  font-weight: bold;
+}
+
+#pilihan h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#pengajar h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#tentang,
+#visi-misi,
+#pilihan,
+#kontak {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+h2 {
+  color: #000000;
+  font-weight: bold;
+}
+
+#visi-misi h2 {
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  -webkit-transition: transform 0.3s, box-shadow 0.3s;
+  -moz-transition: transform 0.3s, box-shadow 0.3s;
+  -ms-transition: transform 0.3s, box-shadow 0.3s;
+  -o-transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: #000000;
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #00aaff;
+  border-color: #00aaff;
+  color: #00aaff;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+  -webkit-transition: background-color 0.3s, transform 0.3s;
+  -moz-transition: background-color 0.3s, transform 0.3s;
+  -ms-transition: background-color 0.3s, transform 0.3s;
+  -o-transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #00aaff;
+  border-color: #00aaff;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #00aaff;
+  color: #000000;
+  padding: 15px 0;
+}
+
+footer a {
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
